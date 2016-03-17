@@ -9,3 +9,18 @@ ssh-keygen -t rsa -C "abc@gmail.com"
 git remote -v
 github上 复制ssh信息
 git remote set-url origin <你复制的url>
+
+###将一个分支推到远端
+git push origin test
+
+###查看分支信息
+git branch
+
+### 切换分支
+git checkout test
+
+###git 命令执行流程
+git clone
+git add xxx
+git commit -m'xxxx'
+git push
