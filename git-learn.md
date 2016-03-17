@@ -24,3 +24,9 @@ git clone
 git add xxx
 git commit -m'xxxx'
 git push
+
+###注意事项
+clone是本地没有repository时，将远程repository整个下载过来。
+pull是本地有repository时，将远程repository里新的commit数据(如有的话)下载过来，并且与本地代码merge。
+
+不要用git pull，用git fetch和git merge代替它。
